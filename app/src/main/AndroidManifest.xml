@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcoVentur"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.ecoeducation.activities.ScoreBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ecoeducation.activities.QuizCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ecoeducation.activities.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ecoeducation.activities.MoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.user.LandingPageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.user.LoginPageActivity"
+            android:label="@string/title_login" />
+        <activity
+            android:name=".ui.user.RegisterPageActivity"
+            android:label="@string/title_register" />
+        <activity
+            android:name=".ui.user.ForgotPasswordPageActivity"
+            android:label="@string/title_forgot_password" />
+        <activity
+            android:name=".ui.user.EditProfilePictureActivity"
+            android:label="@string/title_edit_profile_picture" />
+        <activity
+            android:name=".ui.greenspace.GreenSpaceDetailsActivity"
+            android:label="@string/title_greenspace_details" />
+        <activity
+            android:name=".ui.greenspace.GreenSpaceReviewsActivity"
+            android:label="@string/title_greenspace_reviews" />
+        <activity
+            android:name=".ui.greenspace.GreenEventDetailsActivity"
+            android:label="@string/title_green_event_details" />
+
+        <receiver android:name=".ui.greenspace.notificationReceiver" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/API_key" />
+    </application>
+
+</manifest>

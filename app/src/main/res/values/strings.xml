@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EcoVentur</string>
+
+    <string name="title_user">Profile</string>
+    <string name="title_login">Login to EcoVentur</string>
+    <string name="title_register">Register New Account</string>
+    <string name="title_forgot_password">Change Password</string>
+    <string name="title_edit_profile_picture">Edit Profile Picture</string>
+
+    <string name="title_transit">Green Transit</string>
+
+    <string name="title_greenspace">Green Space Discovery</string>
+    <string name="title_greenspace_details">Green Space Details</string>
+    <string name="title_greenspace_reviews">Green Space Reviews</string>
+    <string name="title_green_event_details">Community Green Event Details</string>
+
+    <string name="title_ecoeducation">EcoLearningHub</string>
+
+    <string name="title_ecorewards">EcoRewards</string>
+
+    <string name="android_client_id">21562411440-hmd8k314d9j70vh52mfommplaisvkml1.apps.googleusercontent.com</string>
+    <string name="API_key">AIzaSyBP0Wf3PmKlYzqMVMgm-bg0cGKLjWu1MxM</string>
+</resources>

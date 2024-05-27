@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21562411440",
+    "firebase_url": "https://ecoventur-405507-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ecoventur-405507",
+    "storage_bucket": "ecoventur-405507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21562411440:android:7f1ff2675d18f493e4ee75",
+        "android_client_info": {
+          "package_name": "com.example.ecoventur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21562411440-ejdeeqtlrt4rrs9u07rvpajcc05hd52f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhIB1eu6LLbRIzCzdxo2j0pwg78qJrTPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21562411440-ejdeeqtlrt4rrs9u07rvpajcc05hd52f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
